@@ -1,0 +1,50 @@
+# Neutral monster camps and epic objectives.
+monsters:
+  baron:
+    display_name: "Baron Nashor"
+    type: epic
+    level: 20
+    health: 9000
+    damage: 400
+    armor: 120
+    magic_resist: 70
+    respawn_minutes: 6
+    rewards:
+      gold: 300
+      buff: hand_of_baron
+  dragon:
+    display_name: "Elemental Dragon"
+    type: epic
+    level: 15
+    health: 6500
+    damage: 260
+    armor: 90
+    magic_resist: 70
+    respawn_minutes: 5
+    rewards:
+      gold: 250
+      stackable_buff: drake_aspect
+  red_buff:
+    display_name: "Red Brambleback"
+    type: camp
+    level: 6
+    health: 2100
+    damage: 120
+    armor: 30
+    magic_resist: 20
+    respawn_minutes: 2.5
+    rewards:
+      gold: 90
+      buff: crest_of_cinders
+  blue_buff:
+    display_name: "Blue Sentinel"
+    type: camp
+    level: 6
+    health: 2100
+    damage: 90
+    armor: 20
+    magic_resist: 20
+    respawn_minutes: 2.5
+    rewards:
+      gold: 90
+      buff: crest_of_insight

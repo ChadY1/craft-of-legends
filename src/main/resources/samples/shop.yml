@@ -1,0 +1,27 @@
+# Shop menus and categories. Commands: /shop or /itemshop
+categories:
+  starter:
+    title: "Starter"
+    items:
+      - dorans_blade
+      - dorans_ring
+      - potion
+      - boots
+  core_ad:
+    title: "Core AD"
+    items:
+      - longsword
+      - sheen
+      - infinity_edge
+  consumables:
+    title: "Consumables"
+    items:
+      - potion
+      - control_ward
+      - elixir_of_iron
+
+currencies:
+  gold:
+    display_name: "Gold"
+    symbol: "⛃"
+    formatting: "{amount} gold"
