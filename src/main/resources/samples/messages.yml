@@ -1,0 +1,16 @@
+# Message templates and colors. Supports MiniMessage or legacy codes.
+messages:
+  prefix: "&6[CraftOfLegends]&r"
+  game_start: "&aMatch starting! Choose your champion."
+  champion_selected: "&b%player% locked in %champion%."
+  turret_destroyed: "&c%team% destroyed a turret!"
+  inhibitor_destroyed: "&c%team% has broken an inhibitor!"
+  baron_taken: "&5%team% has slain Baron!"
+  dragon_taken: "&6%team% secured the dragon."
+  nexus_destroyed: "&4%team% destroyed the nexus!"
+  party_invite: "&e%player% invited you to a party. Use /party accept %player%."
+  quest_completed: "&aQuest complete: %quest_name%!"
+colors:
+  ally: "#55ff55"
+  enemy: "#ff5555"
+  neutral: "#ffaa00"

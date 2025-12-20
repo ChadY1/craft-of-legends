@@ -1,0 +1,16 @@
+# Suggested keybind prompts for players.
+controls:
+  ability_q: "Q"
+  ability_w: "W"
+  ability_e: "E"
+  ability_r: "R"
+  item_1: "1"
+  item_2: "2"
+  item_3: "3"
+  item_4: "4"
+  item_5: "5"
+  item_6: "6"
+  recall: "B"
+  shop: "P"
+  scoreboard: "Tab"
+  ping: "G"
