@@ -1,0 +1,46 @@
+# Optional: define abilities separately and reference them from champion files.
+# Copy to plugins/CraftOfLegends/abilities.yml if you prefer external ability tuning.
+
+abilities:
+  lux_q:
+    name: Light Binding
+    type: projectile
+    projectile_speed: 45
+    stun_seconds: 2
+    cost:
+      mana: 50
+    cooldown_seconds: 12
+    scaling:
+      ability_power_ratio: 0.6
+    effects:
+      - root_seconds: 2
+      - mark_duration_seconds: 6
+  lux_r:
+    name: Final Spark
+    type: laser
+    windup_seconds: 1.25
+    cost:
+      mana: 100
+    cooldown_seconds: 70
+    range_blocks: 70
+    scaling:
+      ability_power_ratio: 1.0
+    effects:
+      - reveal_targets: true
+      - executes_below_health_percent: 10
+
+  lissandra_w:
+    name: Ring of Frost
+    type: aoe
+    radius_blocks: 4
+    cost:
+      mana: 50
+    cooldown_seconds: 14
+    scaling:
+      ability_power_ratio: 0.5
+    effects:
+      - self_shield: 60
+      - root_seconds: 1.1
+
+# Add additional abilities below this line and reference their keys (e.g., "lux_q")
+# from champion files or the abilities.presets block in config.yml.

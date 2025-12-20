@@ -1,0 +1,61 @@
+# Lane structure layout for inhibitors, turrets, and nexus.
+lanes:
+  top:
+    turrets:
+      - id: top_outer
+        health: 3000
+        damage: 150
+        armor: 60
+      - id: top_inner
+        health: 3300
+        damage: 170
+        armor: 80
+      - id: top_inhib
+        health: 3600
+        damage: 190
+        armor: 100
+    inhibitor:
+      id: top_inhibitor
+      respawn_minutes: 5
+      grants: super_minions
+  mid:
+    turrets:
+      - id: mid_outer
+        health: 3000
+        damage: 150
+        armor: 60
+      - id: mid_inner
+        health: 3300
+        damage: 170
+        armor: 80
+      - id: mid_inhib
+        health: 3600
+        damage: 190
+        armor: 100
+    inhibitor:
+      id: mid_inhibitor
+      respawn_minutes: 5
+      grants: super_minions
+  bot:
+    turrets:
+      - id: bot_outer
+        health: 3000
+        damage: 150
+        armor: 60
+      - id: bot_inner
+        health: 3300
+        damage: 170
+        armor: 80
+      - id: bot_inhib
+        health: 3600
+        damage: 190
+        armor: 100
+    inhibitor:
+      id: bot_inhibitor
+      respawn_minutes: 5
+      grants: super_minions
+nexus:
+  health: 4500
+  armor: 120
+  magic_resist: 120
+  regen_per_second: 10
