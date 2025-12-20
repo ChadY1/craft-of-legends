@@ -1,11 +1,8 @@
 name: CraftOfLegends
 main: com.craftoflegends.CraftOfLegendsPlugin
-version: 0.1.0
-api-version: '1.20'
-author: CraftOfLegends Team
-description: Core MOBA systems for Paper/Bungeecord hybrid servers.
-commands:
-  col:
-    description: Base command for Craft of Legends interactions.
-    usage: /col <join|leave|party|queue|ability|map>
-    aliases: [craftoflegends, legends]
+version: ${project.version}
+api-version: 1.20
+description: League of Legends-inspired gameplay for Paper servers.
+authors:
+  - Craft of Legends Team
+website: https://example.com/craft-of-legends

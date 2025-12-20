@@ -1,0 +1,5 @@
+name: CraftOfLegends
+main: com.craftoflegends.bungee.CraftOfLegendsBungeePlugin
+version: ${project.version}
+author: Craft of Legends Team
+description: League of Legends-inspired gameplay for BungeeCord proxies.
