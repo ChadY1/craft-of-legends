@@ -1,0 +1,8 @@
+name: CraftOfLegends
+main: com.craftoflegends.CraftOfLegendsPlugin
+version: ${project.version}
+api-version: 1.20
+description: League of Legends-inspired gameplay for Paper servers.
+authors:
+  - Craft of Legends Team
+website: https://example.com/craft-of-legends
