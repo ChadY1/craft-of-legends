@@ -1,0 +1,26 @@
+# Storage configuration
+storage:
+  type: SQLITE # Options: SQLITE, MYSQL
+  mysql:
+    host: localhost
+    port: 3306
+    database: craft_of_legends
+    username: craft
+    password: secret
+    poolSize: 10
+  sqlite:
+    file: plugins/CraftOfLegends/data.db
+    poolSize: 5
+
+maps:
+  default-map: rift
+  tick-interval: 20
+
+matchmaking:
+  min-party-size: 1
+  max-party-size: 5
+  queue-timeout-seconds: 90
+
+champions:
+  default: archer
+  allow-duplicate: true
