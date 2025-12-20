@@ -1,0 +1,29 @@
+# Daily and weekly quests for progression.
+quests:
+  daily:
+    - id: farm_minions
+      name: "Wave Clear"
+      objective: "Defeat 100 minions"
+      reward:
+        gold: 250
+        experience: 500
+    - id: turret_slayer
+      name: "Objective Taker"
+      objective: "Destroy 2 turrets"
+      reward:
+        gold: 300
+        experience: 650
+  weekly:
+    - id: epic_monsters
+      name: "Epic Control"
+      objective: "Secure 3 epic monsters"
+      reward:
+        gold: 750
+        experience: 2000
+  seasonal:
+    - id: ranked_victories
+      name: "Ranked Legend"
+      objective: "Win 10 ranked matches"
+      reward:
+        cosmetic_title: "Legend"
+        tokens: 25

@@ -1,0 +1,87 @@
+# Items usable by champions. Keys should match shop entries.
+items:
+  dorans_blade:
+    name: "Doran's Blade"
+    cost: 450
+    stats:
+      attack_damage: 8
+      health: 80
+      lifesteal_percent: 3
+  dorans_ring:
+    name: "Doran's Ring"
+    cost: 400
+    stats:
+      ability_power: 18
+      health: 70
+      mana_regen: 5
+  longsword:
+    name: "Long Sword"
+    cost: 350
+    stats:
+      attack_damage: 10
+  dagger:
+    name: "Dagger"
+    cost: 300
+    stats:
+      attack_speed_percent: 12
+  potion:
+    name: "Health Potion"
+    cost: 50
+    consumable: true
+    effect:
+      heal_over_time: 150
+  boots:
+    name: "Boots"
+    cost: 300
+    stats:
+      move_speed: 25
+  control_ward:
+    name: "Control Ward"
+    cost: 75
+    consumable: true
+    effect:
+      reveals_duration_seconds: 120
+  elixir_of_iron:
+    name: "Elixir of Iron"
+    cost: 500
+    consumable: true
+    effect:
+      bonus_health: 300
+      tenacity_percent: 25
+      size_increase_percent: 10
+      duration_seconds: 180
+  bf_sword:
+    name: "B. F. Sword"
+    cost: 1300
+    stats:
+      attack_damage: 40
+  pickaxe:
+    name: "Pickaxe"
+    cost: 875
+    stats:
+      attack_damage: 25
+  cloak_of_agility:
+    name: "Cloak of Agility"
+    cost: 600
+    stats:
+      crit_chance_percent: 15
+  sheen:
+    name: "Sheen"
+    cost: 900
+    stats:
+      ability_haste: 10
+      bonus_onhit_magic_damage: 50
+    recipe:
+      - longsword
+      - dagger
+  infinity_edge:
+    name: "Infinity Edge"
+    cost: 3400
+    stats:
+      attack_damage: 80
+      crit_chance_percent: 20
+      crit_damage_percent: 35
+    recipe:
+      - bf_sword
+      - pickaxe
+      - cloak_of_agility

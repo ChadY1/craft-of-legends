@@ -1,0 +1,9 @@
+# Friends list storage when not using SQL.
+friends:
+  max_friends: 200
+  requests_expire_minutes: 60
+  allow_cross_server_invites: true
+  messages:
+    request_sent: "&aFriend request sent to %target%."
+    request_received: "&e%player% wants to be your friend."
+    added: "&aYou are now friends with %player%."
